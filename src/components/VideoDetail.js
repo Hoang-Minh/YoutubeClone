@@ -30,7 +30,7 @@ const VideoDetail = ({ video }) => {
             }}
             title="Video Player"
             src={videoSrc}
-            allowfullscreen
+            allowFullScreen
           />
         </div>
       </Paper>
