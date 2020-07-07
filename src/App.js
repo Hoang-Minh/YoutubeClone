@@ -18,7 +18,7 @@ class App extends React.Component {
           part: "snippet",
           type: "video",
           maxResults: 5,
-          key: "AIzaSyDSl7Z9MMw-Nxlneopt-WygSUsBlUzrNIE",
+          key: process.env.REACT_APP_YOUTUBE_API_KEY,
         },
       });
 
